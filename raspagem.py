@@ -1,4 +1,4 @@
-import requests
+""" import requests
 
 
 # Requisição do tipo GET
@@ -31,4 +31,4 @@ print(response.json())
 
 # Podemos também pedir que a resposta lance uma exceção caso o status não seja OK
 response = requests.get("http://httpbin.org/status/404")
-response.raise_for_status()
+response.raise_for_status() """
